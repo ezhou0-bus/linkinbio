@@ -1,15 +1,151 @@
 <!DOCTYPE html>
 <html>
-    <head <meta charset="UTF-8"> >
-        <title>My first website</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+        <title> linkinbio </title>
+
+        <style>
+         /*
+* {
+  border: 1px red dashed;
+}
+*/
+            
+            html {
+  min-height: 100%;
+}
+
+            body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: linear-gradient(75deg, #fcffd6, #fce0be, #f8bdb0, #f5abc8, #dba5f2);
+ color: rgba(255, 255, 255, 1.0);
+  font-family: "Impact"
+}
+
+a {
+    color: rgba(255, 255, 255, 1.0);
+    text-decoration: none;
+}
+
+.item {
+  background-color: rgba(246, 214, 204, 1);
+}
+
+.main-container {
+  width: 640px;
+  max-width: 640px;
+  margin: auto;
+}
+
+.image-row {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.name-row {
+    margin-bottom: 30px;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.social-icons-row {
+  margin-bottom: 30px;
+  display: flex;
+  font-size: 24px;
+  font-weight: 900;
+  font-family: "Playfair Display";
+  justify-content: space-around;
+}
+.item {
+  margin-bottom: 20px;
+  font-family: "Playfair Display";
+  display: flex;
+  font-size: 18px;
+  font-weight: 300;
+  align-items: center;
+  border-radius: 1000px;
+  padding: 5px;
+  padding-right: 53px;
+  box-shadow: 4px 4px 10px 0px rgba(122,32,122,0.5);
+}
+
+.link-text {
+  text-align: center;
+  flex-grow: 1;
+}
+            .avatar-image {
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
+    border-radius: 128px;
+  }
+  .thumbnail {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  object-fit: cover;
+}
+          </style>
+
     </head>
     
     <body>
-        <h1>My very first webpage</h1>
-        <h2>Websites are built with HTML</h2>
-        <p>HTML is a markup language that tells the browser what everything is</p>
-        <h2>They also use CSS</h2>
-        <p>I can't wait to start learning CSS!</p>
+        <div class = "main-container">
+      
+            <div class = "image-row "> 
+                <img class="avatar-image" src = "IMG_6614_Original.jpg" alt = "headshot">
+            </div>
+
+             <div class = "name-row">
+                Elaine Zhou 
+             </div>
+       
+             <div class = "social-icons-row">
+                <a href = "https://www.instagram.com/d.elaine_2" target="_blank"/>
+                <i class="fa-brands fa-instagram"></i> 
+            </a>
+
+            <a href="https://www.linkedin.com/in/elaine-dai22/" target="_blank"/>
+            <i class="fa-brands fa-linkedin"></i>  
+            </a>
+
+            </div>
+            <div class = "links-row"> 
+        <div class="item">
+        <img class="thumbnail" src="Lighting_Techniques_for_Aesthetic_Photography_flowers.jpg">
+        <a class="link-text" target="_blank" href="https://campus.datacamp.com/courses/free-introduction-to-r/chapter-1-intro-to-basics-1?ex=1">
+          Intro to another coding language :)
+        </a>
+      </div>
+
+            <div class="item">
+        <img class="thumbnail" src="a78aa73d9939ddb84ef5c7d15132d7e8.jpg">
+        <a class="link-text" target="_blank" href="https://martech.org/">
+          MarTech news for your feed 
+        </a>
+      </div>
+
+
+      <div class="item">
+        <img class="thumbnail" src="anders-jilden-AkUR27wtaxs-unsplash_Medium_419e99b9-0ca3-40b4-8321-a1b52a26071d.webp">
+        <a class="link-text" target="_blank" href="https://web.mit.edu/17.423/www/Archive98/handouts/spiral.html">
+            SPIRAL v. DETERRENCE  
+        </a>
+      </div>
+
+      <div class="item">
+        <img  class="thumbnail" src="wp5994064.webp">
+        <a class="link-text" target="_blank" href="https://blog.hubspot.com/marketing?hubs_content=blog.hubspot.com%2F&hubs_content-cta=null&hubs_post-cta=blognavcard-marketing">
+            Another Marketing Site 
+        </a>
+      </div>
+            </div> <!-- links-row>
+            </div> <!-- main-container>
     </body>
     
 </html>
